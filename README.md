@@ -2,7 +2,6 @@
 
 This repository provides a comprehensive solution for detecting cloudy images in satellite imagery using the YOLOv8 algorithm. Clouds play a crucial role in weather and climate studies, impacting the Earth's atmospheric energy balance through the scattering and absorption of shortwave light and the absorption and reemission of infrared radiation.
 
-![readmeimage](image/cloud.png)
 ## Key Features
 - Utilization of YOLOv8, an advanced object detection algorithm, for cloud detection in satellite images
 - Achieving high accuracy levels of 0.99 to 1, ensuring reliable and precise identification of cloudy scenes

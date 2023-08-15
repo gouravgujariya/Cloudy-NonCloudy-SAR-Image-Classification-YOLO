@@ -4,7 +4,7 @@ import numpy as np
 # import required module
 import os
 # assign directory
-directory = 'C:\\Users\\ganes\\PycharmProjects\\cloudy_classification\\cloudy'
+directory = 'C:\\Users\\gourav\\PycharmProjects\\cloudy_classification\\cloudy'
 
 
 # iterate over files in
@@ -19,7 +19,7 @@ for filename in os.listdir(directory):
 	if os.path.isfile(f)  :
 		print(f)
 		img = cv2.imread(f)
-		temp = "C:\\Users\\ganes\\PycharmProjects\\cloudy_classification\\classi\\last\\cloudy"
+		temp = "C:\\Users\\gourav\\PycharmProjects\\cloudy_classification\\classi\\last\\cloudy"
 		temp = temp + "\\c" + str(i) + ".jpg"
 		gaussian_blur = cv2.GaussianBlur(img, (7, 7), 2)
 		sharpened = cv2.addWeighted(img, 1.5, gaussian_blur, -0.5, 0)
